@@ -11,7 +11,8 @@ public class FindPrimes {
         System.out.println("Check the differance between primes (4)");
         System.out.println("Mode choice: ");
         int userInput = scan.nextInt();
-        if (userInput == 1) {
+ 
+ 	if (userInput == 1) {
             findAnAmountOfPrimes(scan, primeNumbers);
         }
         else if (userInput == 2) {
